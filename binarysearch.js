@@ -1,4 +1,4 @@
-//二分查找
+//二分查找  复杂度：O(logn)
 let my_list = [1, 2, 5, 23, 45, 74]   //sorted array
 function binarySearch(arr, item) {
     let low = 0, high = arr.length - 1, mid;
@@ -14,4 +14,7 @@ function binarySearch(arr, item) {
     }
     return "not find";
 }
+
+
+
 
