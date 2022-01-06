@@ -1,5 +1,4 @@
-//@ts-check
-class Stack {
+export class Stack {
 	constructor() {
 		this.count = 0
 		this.items = {}
