@@ -1,3 +1,4 @@
+// 队列实现
 export class Queue {
   constructor() {
     this.items = {}
