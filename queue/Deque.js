@@ -1,5 +1,5 @@
 // 双端队列（double-ended queue）实现
-class Deque {
+export class Deque {
   constructor() {
     this.count = 0;
     this.lowestCount = 0
