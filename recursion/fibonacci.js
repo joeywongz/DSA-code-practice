@@ -30,3 +30,15 @@ function fibonacci(n) {
   }
   return fibonacci(n-1) + fibonacci(n-2)
 }
+
+//利用缓存优化后的递归实现斐波那契
+function fibonacciMemoization(n) {
+  let memo = [0,1]
+  const fibonacci = (n) => {
+    if(memo[n]!=null){
+      return memo[n]
+    }
+    return memo[n] = fibonacci(n-1) + fibonacci(n-2)
+  }
+  return fibonacci(n)
+}
