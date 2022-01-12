@@ -1,7 +1,7 @@
 // 击鼓传花
 
 import { Queue } from "../queue.js";
-
+ 
 function hotPotato(elementsList, num) {
   const queue = new Queue(); 
   const elimitatedList = [];
